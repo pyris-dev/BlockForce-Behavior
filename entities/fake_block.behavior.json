@@ -1,0 +1,38 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "blockforce:fake_block",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:fire_immune": true,
+      "minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "cause": "all",
+            "deals_damage": false
+          }
+        ]
+      },
+      "minecraft:physics": {
+        "has_gravity": false,
+        "has_collision": true
+      },
+      "minecraft:pushable": {
+        "is_pushable": false
+      },
+      "minecraft:is_stackable": {},
+      "minecraft:is_collidable": {},
+      "minecraft:push_through": {
+        "value": 1
+      },
+      "minecraft:collision_box": {
+        "width": 1,
+        "height": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "blockforce-behavior",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "tsx ./utils/build.ts",
+    "build:release": "tsx ./utils/build.ts --minify --bundle",
+    "build:prod": "tsx ./utils/build.ts --minify --bundle",
+    "build:watch": "tsx ./utils/build.ts --watch --bundle",
+    "lint": "eslint ./src ./utils",
+    "lint:fix": "eslint ./src ./utils --fix",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@minecraft/math": "^2.4.1",
+    "@minecraft/server": "2.11.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^22.20.5",
+    "@typescript-eslint/eslint-plugin": "^8.49.0",
+    "@typescript-eslint/parser": "^8.49.0",
+    "esbuild": "^0.25.12",
+    "eslint": "^9.39.1",
+    "eslint-plugin-minecraft-isvalid": "^0.4.0",
+    "fs-extra": "^11.3.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.49.0"
+  }
+}

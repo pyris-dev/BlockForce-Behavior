@@ -12,3 +12,5 @@ and entities, move them through the air, and launch them across the world.
 
 Blocks appear as floating blocks while held and are placed back into the world
 when released. Launched objects follow an arc and react to block collisions.
+
+[Download releases](https://github.com/pyris-dev/BlockForce-Behavior/releases)
